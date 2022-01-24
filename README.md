@@ -9,13 +9,13 @@ This application will allow creating/removing/updating/fetching Book items. Each
 ## Book Items
 The application stores Book items, where each Book item contains the following fields:
 
-bookId (string) - a unique id for a MEAL item
-createdAt (string) - date and time when an item was created
-title (string) - title of the Book (e.g. "Witches")
-read (boolean) - true if Book item has been read, false otherwise
-attachmentUrl (string) (optional) - a URL pointing to an image attached to a Book item
-userId (string) - id of a user who created a book item.
-dueDate (string) - date by which the book is supposed to be read
+* `bookId` (string) - a unique id for a MEAL item
+* `createdAt` (string) - date and time when an item was created
+* `title` (string) - title of the Book (e.g. "Witches")
+* `read` (boolean) - true if Book item has been read, false otherwise
+* `attachmentUrl` (string) (optional) - a URL pointing to an image attached to a Book item
+* `userId` (string) - id of a user who created a book item.
+* `dueDate` (string) - date by which the book is supposed to be read
 
 ## Prerequisites
 
