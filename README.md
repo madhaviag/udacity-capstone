@@ -6,6 +6,17 @@ A simple Book Journal application using AWS Lambda and Serverless framework, for
 
 This application will allow creating/removing/updating/fetching Book items. Each Book item can optionally have an attachment image. Each user only has access to Book items that he/she has created.
 
+## Book Items
+The application stores Book items, where each Book item contains the following fields:
+
+bookId (string) - a unique id for a MEAL item
+createdAt (string) - date and time when an item was created
+title (string) - title of the Book (e.g. "Witches")
+read (boolean) - true if Book item has been read, false otherwise
+attachmentUrl (string) (optional) - a URL pointing to an image attached to a Book item
+userId (string) - id of a user who created a book item.
+dueDate (string) - date by which the book is supposed to be read
+
 ## Prerequisites
 
 ### Node.js and NPM
