@@ -104,7 +104,7 @@ export class Books extends React.PureComponent<BooksProps, BooksState> {
   render() {
     return (
       <div>
-        <Header as="h1">Books</Header>
+        <Header as="h1">Welcome to your Books Journal!</Header>
 
         {this.renderCreateBookInput()}
 
