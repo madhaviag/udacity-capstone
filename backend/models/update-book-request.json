@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "UpdateBook",
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "dueDate": {
+        "type": "string"
+      },
+      "read": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "title",
+      "dueDate",
+      "read"
+    ],
+    "additionalProperties": false
+  }
