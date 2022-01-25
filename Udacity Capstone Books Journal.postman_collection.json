@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "008a91c3-2e75-4c93-a93f-fe1961b8494c",
-		"name": "Udacity C4 Project",
+		"_postman_id": "743320a3-5361-4d1f-b783-45a52914b5fa",
+		"name": "Udacity Capstone Books Journal",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -56,7 +56,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"name\": \"Water the plants\",\n\t\"dueDate\": \"2022-04-11\"\n   \n}"
+							"raw": "{\n\t\"title\": \"BFG\",\n\t\"dueDate\": \"2022-04-11\"\n   \n}"
 						},
 						"url": {
 							"raw": "https://{{apiId}}.execute-api.us-east-1.amazonaws.com/dev/books",

@@ -2,6 +2,7 @@ import dateFormat from 'dateformat'
 import { History } from 'history'
 import update from 'immutability-helper'
 import * as React from 'react'
+
 import {
   Button,
   Checkbox,
@@ -103,7 +104,7 @@ export class Books extends React.PureComponent<BooksProps, BooksState> {
 
   render() {
     return (
-      <div>
+      <div > 
         <Header as="h1">Welcome to your Books Journal!</Header>
 
         {this.renderCreateBookInput()}
